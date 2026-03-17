@@ -9,6 +9,10 @@ h1 {
   height: 150px;      /* Set an equal fixed height to ensure a circle */
   border-radius: 50%; /* Makes the container circular */
   overflow: hidden;   /* Hides the parts of the image outside the circle */
+  border: 3px solid #333;
+  display: flex;
+  justify-contnet: center;
+  align-items: center;
 }
 
 .circle-container img {
